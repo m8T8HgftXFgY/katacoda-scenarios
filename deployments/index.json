@@ -1,6 +1,6 @@
 {
-  "title": "Practice Projects - Pods",
-  "description": "Validate your skills to work with Pods with a CKA/CKAD Exam Simulator",
+  "title": "Practice Projects - Deployments",
+  "description": "Validate your skills to work with Deployments with a CKA/CKAD Exam Simulator",
   "details": {
     "steps": [
       {
