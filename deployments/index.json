@@ -1,0 +1,59 @@
+{
+  "title": "Practice Projects - Pods",
+  "description": "Validate your skills to work with Pods with a CKA/CKAD Exam Simulator",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md",
+        "courseData": "initialize.sh",
+        "code": "step1-fg-wait_for_k8s.sh"
+
+      },
+      {
+        "title": "Project 2 - Scenario Syntax",
+        "text": "step2.md",
+        "courseData": "step2-bg.sh"
+
+      },
+      {
+        "title": "Project 3 - CLI",
+        "text": "step3.md"
+      },
+      {
+        "title": "Project 4 - VS Code Extension",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
+     },
+      {
+        "title": "Evaluation Report",
+        "text": "stepz.md",
+        "courseData": "stepz-bg-evaluate.sh",
+        "code": "stepz-fg-result.sh"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "Authored by Gourav Shah, School of Devops https://hub.schoolofdevops.com"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+        "master": [
+          {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "evaluate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+          {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"},
+          {"file": "nginx-pod.yaml", "target": "/root/", "chmod": "+x"}
+        ]
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
