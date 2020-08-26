@@ -4,26 +4,31 @@
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Project 2 - Simple Pod",
         "text": "step1.md",
         "courseData": "initialize.sh",
         "code": "step1-fg-wait_for_k8s.sh"
 
       },
       {
-        "title": "Project 2 - Scenario Syntax",
+        "title": "Project 2 - Troubleshooting",
         "text": "step2.md",
         "courseData": "step2-bg.sh"
 
       },
       {
-        "title": "Project 3 - CLI",
+        "title": "Project 3 - Static Pod",
         "text": "step3.md"
       },
       {
-        "title": "Project 4 - VS Code Extension",
+        "title": "Project 4 - Pod in namespace",
         "text": "step4.md",
+        "courseData": "step4-bg.sh",
         "verify": "step4-verify.sh"
+     },
+     {
+       "title": "Project 5 - Multicontainer-Pod",
+       "text": "step5.md"
      },
       {
         "title": "Evaluation Report",

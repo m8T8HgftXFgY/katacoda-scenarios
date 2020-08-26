@@ -2,16 +2,13 @@
 
 ## Task : Create a pod in the given namespace.
 
-Create a namespace with name `mynamespace`
+Create a Pod with following specs,
 
-Create a Pod with following specs, 
   * metadata
-    * name : mypod 
+    * name : mypod
     * namespace: mynamespace
-    * labels: 
+    * labels:
         app:mypod
-  * containers: 
-    * name: myapp 
+  * containers:
+    * name: myapp
     * image: nginx:alpine
-    
-    
