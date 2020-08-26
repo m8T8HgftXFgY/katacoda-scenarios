@@ -7,21 +7,20 @@ Create a Pod with given configuration in the `/etc/kubernetes/manifests` of any 
 
 ### Task:
 
-- Get the Pod configuration file.
+- Create a static Pod with below configuration.
 
-```command
+```yaml
 
-cd cka-challenges/003/
-
-cat pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: static-pod
+  labels:
+     app: nginx
+spec:
+  containers:
+  - name: nginx-demo
+    image: nginx:alpine
+    ports:
+    - containerPort: 80
 ```
-
-
-### Skills Needed:
-
-- Static Pod
-- Kubelet configurations
-
-### References:
-
-Static Pod: https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
