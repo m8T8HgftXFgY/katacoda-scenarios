@@ -2,6 +2,8 @@
 
 ## Task : Create a pod in the given namespace.
 
+Create a namespace with name `mynamespace`
+
 Create a Pod with following specs, 
   * metadata
     * name : mypod 
