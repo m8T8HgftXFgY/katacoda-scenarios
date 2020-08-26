@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "Project 2 - Simple Pod",
+        "title": "Project 1 - Simple Pod",
         "text": "step1.md",
         "courseData": "initialize.sh",
         "code": "step1-fg-wait_for_k8s.sh"
