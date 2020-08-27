@@ -1,1 +1,1 @@
-kubectl apply -f nginx-pod.yaml
+kubectl apply -f nginx-deploy.yaml

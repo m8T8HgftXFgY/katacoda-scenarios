@@ -4,14 +4,14 @@
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Project 1- Create a Deployment",
         "text": "step1.md",
         "courseData": "initialize.sh",
         "code": "step1-fg-wait_for_k8s.sh"
 
       },
       {
-        "title": "Project 2 - Scenario Syntax",
+        "title": "Project 2 - Rollout and Rollback Deployment",
         "text": "step2.md",
         "courseData": "step2-bg.sh"
 
@@ -44,7 +44,7 @@
           {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "evaluate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"},
-          {"file": "nginx-pod.yaml", "target": "/root/", "chmod": "+x"}
+          {"file": "nginx-deploy.yaml", "target": "/root/", "chmod": "+x"}
         ]
     }
   },

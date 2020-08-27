@@ -1,11 +1,12 @@
 
 
-## Task : Create a Pod
+## Task : Create a Deployment
 
-Create a Pod with following specs, 
+Create a Deployment with following specs,
   * metadata
-    * name : vote 
-    * labels:  
-  * containers: 
-    * name: app 
-    * image: schoolofdevops/vote:v1 
+    * name : nginx-deploy
+    * labels:  app=web
+    * replicas=3
+  * containers:
+    * name: nginx-deploy
+    * image: nginx:alpine 

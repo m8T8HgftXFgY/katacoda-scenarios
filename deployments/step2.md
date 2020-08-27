@@ -1,11 +1,14 @@
 
 
-## Task : Troubleshoot a Pod
+## Task : Rolling Out the Deployment
 
 
-You should see **nginx** pod created in the current namespace. 
-However it fails to launch. Find out why its not running and fix it. 
+You should see **nginx-deployment** deployment created in the current namespace.
 
-You shall find the  manifest for pod in current dir at  `nginx-pod.yaml`. 
+* Check Deployment rollout status.
 
-Note: If you do not see **nginx** pod running apply the manifest above to have it creatd. 
+* Update the nginx Pods of **nginx-deployment** deployment to use the nginx:1.16.1 image instead of the nginx:1.14.2 image.
+
+* Check the rollout history of **nginx-deployment** deployment.
+
+* Rollback to the previous revision of **nginx-deployment** deployment

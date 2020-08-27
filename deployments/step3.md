@@ -2,26 +2,20 @@
 
 ## Task : Create a Static Pod
 
-Create a Pod with given configuration in the `/etc/kubernetes/manifests` of any of the worker node . So the pod should come up when kubelet service start 
+Create `Deployment` with name `nginx-hc` and configure the readiness and liveness probe fusing **HTTP request**. Use following configuration while creating the deployment.
 
+* name: nginx-hc
+* image: nginx
+* containerPort: 80
 
-### Task:
+* Liveness Probe
+ * initial delay for liveness probe: 5 seconds
+ * timeout for liveness probe: 1 second
+ * kubelet should perform a liveness probe every 3 seconds
+ * maximum restarts: 5
 
-- Get the Pod configuration file.
-
-```command
-
-cd cka-challenges/003/
-
-cat pod.yaml
-```
-
-
-### Skills Needed:
-
-- Static Pod
-- Kubelet configurations
-
-### References:
-
-Static Pod: https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
+* Readiness Probe
+ * initial delay for readiness probe: 5 seconds
+ * timeout for readiness probe: 1 second
+ * kubelet should perform a readiness probe every 3 seconds
+ * maximum restarts: 7
