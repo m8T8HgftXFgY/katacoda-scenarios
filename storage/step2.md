@@ -1,11 +1,5 @@
 
 
-## Task : Troubleshoot a Pod
+## Task : Sort the volume with capacity
 
-
-You should see **nginx** pod created in the current namespace. 
-However it fails to launch. Find out why its not running and fix it. 
-
-You shall find the  manifest for pod in current dir at  `nginx-pod.yaml`. 
-
-Note: If you do not see **nginx** pod running apply the manifest above to have it creatd. 
+You can see few PersistentVolume in current namespace. List all PersistentVolumes from current namespace in increasing order of the capacity. Write your sorted Output to the **/root/pvsort.txt**.

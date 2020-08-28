@@ -1,6 +1,6 @@
 
 
-## Task : Create a Static Pod
+## Task : Healthchecks
 
 Create `Deployment` with name `nginx-hc` and configure the readiness and liveness probe fusing **HTTP request**. Use following configuration while creating the deployment.
 

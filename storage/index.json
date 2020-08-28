@@ -4,7 +4,7 @@
   "details": {
     "steps": [
       {
-        "title": "",
+        "title": "Project 1 - Non-persistent Storage ",
         "text": "step1.md",
         "courseData": "initialize.sh",
         "code": "step1-fg-wait_for_k8s.sh"
@@ -44,7 +44,7 @@
           {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "evaluate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"},
-          {"file": "nginx-pod.yaml", "target": "/root/", "chmod": "+x"}
+          {"file": "pvolumes.yaml", "target": "/root/", "chmod": "+x"}
         ]
     }
   },

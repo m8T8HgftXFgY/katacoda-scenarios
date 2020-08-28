@@ -17,11 +17,11 @@
 
       },
       {
-        "title": "Project 3 - CLI",
+        "title": "Project 3 - Healthchecks",
         "text": "step3.md"
       },
       {
-        "title": "Project 4 - VS Code Extension",
+        "title": "Project 4 - Daemonsets",
         "text": "step4.md",
         "verify": "step4-verify.sh"
      },

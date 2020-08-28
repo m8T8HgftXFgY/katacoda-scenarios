@@ -1,15 +1,5 @@
 
 
-## Task : Create a Pod
+## Task : Create a non-persistent
 
-Create nginx pod in such way that its should mount Host directory /tmp/nginxpod inside pod at /usr/share/nginx/html location.
-
-  * metadata
-    * name : demo-volume
-    * labels:  
-  * containers:
-    * name: app
-    * image: nginx:alpine
-    * mountPath: /usr/share/nginx/html
-  * volumes:
-    * hostpath: /tmp/nginxpod
+Create a pod named **non-persistent-redis** that runs with a volume named **app-cache**, and mountpath **/data/redis**. It should launch in the **staging** namespace and the volume MUST NOT be persistent.
