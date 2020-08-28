@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init-pod
+spec:
+  containers:
+  - name: nginx-app
+    image: nginx
+    ports:
+    - containerPort: 80
+  initContainers:
+  - name: init-app
+    image: busybox
+    command:
+    - wget
+    - "-O"
+    - "/work-dir/index.html"
+    - http://kubernetes.io
+  dnsPolicy: Default

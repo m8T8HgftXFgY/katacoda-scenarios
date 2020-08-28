@@ -11,13 +11,13 @@
 
       },
       {
-        "title": "Project 2 - Scenario Syntax",
+        "title": "Project 2 - Sorting PV",
         "text": "step2.md",
         "courseData": "step2-bg.sh"
 
       },
       {
-        "title": "Project 3 - CLI",
+        "title": "Project 3 - Create a PV",
         "text": "step3.md"
       },
       {
@@ -44,7 +44,8 @@
           {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "evaluate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"},
-          {"file": "pvolumes.yaml", "target": "/root/", "chmod": "+x"}
+          {"file": "pvolumes.yaml", "target": "/root/", "chmod": "+x"},
+          {"file": "initcontainer.yaml", "target": "/root/", "chmod": "+x"}
         ]
     }
   },
