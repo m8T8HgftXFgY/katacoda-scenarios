@@ -4,27 +4,22 @@
   "details": {
     "steps": [
       {
-        "title": "Project 1 - Non-persistent Storage ",
+        "title": "Project 1 - Create a Service ",
         "text": "step1.md",
         "courseData": "initialize.sh",
         "code": "step1-fg-wait_for_k8s.sh"
 
       },
       {
-        "title": "Project 2 - Sorting PV",
+        "title": "Project 2 - Troubleshooting",
         "text": "step2.md",
         "courseData": "step2-bg.sh"
 
       },
       {
-        "title": "Project 3 - Create a PV",
+        "title": "Project 3 - DNS resolutions",
         "text": "step3.md"
       },
-      {
-        "title": "Project 4 - Init Container",
-        "text": "step4.md",
-        "verify": "step4-verify.sh"
-     },
       {
         "title": "Evaluation Report",
         "text": "stepz.md",
