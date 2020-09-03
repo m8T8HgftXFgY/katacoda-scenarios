@@ -1,6 +1,6 @@
 {
-  "title": "Practice Projects - Application Workload",
-  "description": "Validate your skills to work with Pods with a CKA/CKAD Exam Simulator",
+  "title": "Practice Projects - ETCD Operations",
+  "description": "Validate your skills to work with ETCD Operations with a CKA/CKAD Exam Simulator",
   "details": {
     "steps": [
       {
