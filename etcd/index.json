@@ -10,9 +10,8 @@
         "code": "step1-fg-wait_for_k8s.sh"
       },
       {
-        "title": "Project 2 - Restore ETCD Backup",
-        "text": "step2.md",
-        "courseData": "step2-bg.sh"
+        "title": "Project 2 - Restore ETCD ",
+        "text": "step2.md"
       },
       {
         "title": "Evaluation Report",
@@ -32,8 +31,7 @@
         "master": [
           {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
           {"file": "evaluate.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-          {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"},
-          {"file": "nginx-pod.yaml", "target": "/root/", "chmod": "+x"}
+          {"file": "testcases.bats", "target": "/tmp", "chmod": "+x"}
         ]
     }
   },
