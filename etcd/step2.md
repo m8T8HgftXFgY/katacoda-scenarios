@@ -1,8 +1,12 @@
 
 
-## Task : Create a Job
+## Task : Restore ETCD backup
 
-Create a simple job which will write “Hello world” for 50 times with 5 parallelism with following specs,
+ETCD backup has been stored at `/tmp/cka-snapshotdb' restore it using below specifications.
 
-* name: helloworld
-* image:  nginx:1.9.1
+* ETCDCTL_API=3
+* endpoints : https://127.0.0.1:2379
+* CA File: /etc/kubernetes/pki/etcd/ca.crt
+* Client Cert file : /etc/kubernetes/pki/apiserver-etcd-client.crt
+* Key file : /etc/kubernetes/pki/apiserver-etcd-client.key
+* snapshot name: cka-snapshotdb

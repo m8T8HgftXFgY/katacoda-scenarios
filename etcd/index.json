@@ -12,6 +12,7 @@
       {
         "title": "Project 2 - Restore ETCD ",
         "text": "step2.md"
+        "courseData": "step2-bg.sh"
       },
       {
         "title": "Evaluation Report",
